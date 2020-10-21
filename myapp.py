@@ -27,7 +27,11 @@ while True:
       feelings_list.append("excited")
       encouragement_list.append("Me too! I'm so happy for you! Have fun!")
       counter += 1
-
+   if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("There will always be a next time, do not lose hope!")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
